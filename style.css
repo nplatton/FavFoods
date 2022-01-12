@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    font-size: 4rem;
+}
+
+@media (min-width: 700px) {
+    header {
+        font-size: 500px;
+    }
+}
+
+body {
+  font-family: 'Lobster', cursive;
+  color: white;
+  background-color: #22212c;
+  text-align: center;
+  font-size: 2em;
+}
+
+main section {
+  min-height: 100vh;
+  padding: 4rem 0;
+}
+main section .lx-container-70 {
+  background-color: #2a2c37;
+}
+main section .lx-row {
+  padding: 1rem;
+}
+main section .lx-row:not(:first-child) {
+  margin: 2rem 0 0 0;
+}
+main section .lx-row .lx-column {
+  padding: 2rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid white;
+  text-align: center;
+}
